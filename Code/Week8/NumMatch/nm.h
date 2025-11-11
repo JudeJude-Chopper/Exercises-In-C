@@ -1,11 +1,13 @@
 // Do not change this file.
 #pragma once
-#include <stdio.h>
-#include <stdlib.h>
+
 #include <assert.h>
 #include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
 
-struct pair {
+struct pair
+{
    int x1, y1, x2, y2;
 };
 typedef struct pair pair;
